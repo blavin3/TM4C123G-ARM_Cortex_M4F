@@ -12,4 +12,3 @@
 
 ## Future Code
 
-* delay(unsigned int timeout) is a simple blocking delay fucntion in future code implemnt one of the timer peripherals to free up CPU i.e. check if an input has changed rather than wait for delay to finish.
