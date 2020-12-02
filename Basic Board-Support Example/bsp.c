@@ -6,10 +6,10 @@
 
 /*
  * Enable clocking for port
- * OUTPUT -> set pin bit
- * INPUT -> clear pin bit
- *       -> unlock
- *       -> commit
+ * OUTPUT -> GPIODIR set pin bit
+ * INPUT -> GPIODIR clear pin bit
+ *       -> GPIO UNLOCK
+ *       -> GPIO COMMIT
  * Enable  GPIO -> set pin bit
  */
 void pin_setup(unsigned int port, unsigned int pin, unsigned int pin_state)
