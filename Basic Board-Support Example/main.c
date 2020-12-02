@@ -20,11 +20,14 @@
 int main()
 {
   pin_setup(GPIODATA_F, RED_LED, OUTPUT);
+  pin_setup(GPIODATA_F, BLUE_LED, OUTPUT);
   while(1)
   {
     pin_on(GPIODATA_F, RED_LED);
+    pin_off(GPIODATA_F, BLUE_LED);
     delay(1000000);
     pin_off(GPIODATA_F, RED_LED);
+    pin_on(GPIODATA_F, BLUE_LED);
     delay(1000000);
   }
 }
