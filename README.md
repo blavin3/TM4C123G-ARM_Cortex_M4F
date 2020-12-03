@@ -11,6 +11,6 @@ Read analog input using ADC 7
 Control GPIO outputs on port F (Tiva C LEDs)
 
 ## Basic Board-Support Examples
-Implemntation of board support header file which contains board specific memory addresses and functions. Onboard LEDS and buttons used to implement a sequential background forground program.
+Development of board support header file which contains board specific memory addresses and functions. Onboard LEDS and buttons used to implement a sequential background forground program.
 
 
