@@ -3,6 +3,7 @@
 ## Motivation
 * Basic example program to test bsp.h and bsp.c.
 * Implementation of background foregound code.
+* Read GPIO inputs 
 
 ## Issues and Limitaions
 1. Button presses are not instantly recgonised.
