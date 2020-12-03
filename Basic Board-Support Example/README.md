@@ -1,4 +1,4 @@
-# Implementation of Board Support Header File
+# Implementation of Board Support Header File in a Basic Sequential Application Program
 
 ## Motivation
 * Basic code to control the digital outputs of TM4C123G
