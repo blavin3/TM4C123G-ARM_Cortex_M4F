@@ -1,4 +1,4 @@
-/* One short timer - Timer0 A (16-bit timer)*/
+/* Periodic timer - Timer0 A (16-bit timer)*/
 
 #define RCGCTIMER (0x400FE000U + 0x604U)
 #define TIMER0 (0x40030000U)
@@ -10,8 +10,8 @@
 #define GPTMICR(timer) (timer + 0x024U)
 #define GPTMTAPR(timer) (timer + 0x038U)
 
-unsigned int i = 0;
-unsigned int timeout = 5; /* 5 seconds */
+unsigned int volatile i = 0;
+unsigned int const timeout = 5; /* 5 seconds */
 
 int main()
 {
